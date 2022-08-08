@@ -220,6 +220,7 @@ p {
   flex-direction: column;
   overflow: hidden;
   position: relative;
+  padding-bottom: 90px;
 }
 
 .kaufman__section-title,
@@ -250,8 +251,11 @@ p {
   right: -210px;
   top: 0;
   z-index: 0;
+  width: 877px;
+  height: 877px;
 }
 
 .kaufman__table-cell {
   width: 200px;
+  margin-top: 80px;
 }
