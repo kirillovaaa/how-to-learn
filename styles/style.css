@@ -1,6 +1,9 @@
 body {
   margin: 0;
 }
+p {
+  margin: 0;
+}
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -74,17 +77,17 @@ body {
 .header__subtitle {
   width: 388px;
   position: absolute;
-  bottom: 0;
+  bottom: 30px;
   left: 64px;
   line-height: 25px;
   font-size: 18px;
+  
 }
 
 .description {
   display: flex;
   justify-content: center;
   padding-top: 100px;
-  padding-bottom: 100px;
   background-color: white;
 }
 
