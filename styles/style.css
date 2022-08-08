@@ -10,12 +10,14 @@
 }
 
 .header {
+  position: relative;
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
   display: flex;
   padding: 64px;
   align-items: center;
+  background-color: lightgray;
   /* выше установили ограничения для секции */
 }
 
@@ -47,6 +49,7 @@
   margin-right: 0;
   margin-top: 80px;
 }
+
 .header__main-illustration {
   height: 608px;
   width: 765px;
@@ -54,12 +57,14 @@
   top: 128px;
   right: 0;
 }
+
 .header__title {
   width: 730px;
   font-size: 102px;
   line-height: 96px;
   font-weight: 600;
 }
+
 .header__subtitle {
   width: 388px;
   position: absolute;
@@ -67,4 +72,42 @@
   left: 64px;
   line-height: 25px;
   font-size: 18px;
+}
+
+.description {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: white;
+}
+
+.description__twocolumns {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.description__brief {
+  line-height: 1.2;
+  font-weight: normal;
+  font-size: 18px;
+  color: blue;
+}
+
+.description__main-text {
+  min-width: 784px;
+  width: 80%;
+}
+
+.description__paragraph {
+  line-height: 34px;
+  font-size: 24px;
+}
+.description__paragraph:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.span-accent {
+  font-weight: 600;
 }
