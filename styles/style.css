@@ -1,3 +1,7 @@
+body {
+  overflow-x: hidden;
+}
+
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -17,11 +21,12 @@
   display: flex;
   align-items: center;
   background-color: #f2f2f2;
-  /* выше установили ограничения для секции */
+  overflow: hidden;
 }
 
 .header__link {
   color: #2f80ed;
+  text-decoration: none;
 }
 
 .logo {
@@ -52,6 +57,7 @@
   bottom: 0;
   right: 0;
   object-fit: cover;
+  z-index: 0;
 }
 
 .header__title {
@@ -60,6 +66,7 @@
   line-height: 96px;
   font-weight: 600;
   margin-left: 64px;
+  z-index: 1;
 }
 
 .header__subtitle {
@@ -69,6 +76,7 @@
   left: 64px;
   line-height: 25px;
   font-size: 18px;
+  margin: 0;
 }
 
 .description {
@@ -89,6 +97,7 @@
   font-weight: normal;
   font-size: 18px;
   color: #2f80ed;
+  margin: 0;
 }
 
 .two-columns__main-text {
@@ -99,6 +108,7 @@
 .two-columns__paragraph {
   line-height: 34px;
   font-size: 24px;
+  margin: 0;
   margin-bottom: 30px;
 }
 
@@ -122,6 +132,7 @@
   font-weight: 600;
   margin-top: 100px;
   margin-bottom: 20px;
+  z-index: 1;
 }
 
 .section-subtitle {
@@ -129,6 +140,7 @@
   font-size: 24px;
   font-weight: normal;
   margin: 0;
+  z-index: 1;
 }
 
 .table {
@@ -156,6 +168,12 @@
 .table__text {
   line-height: 1.2;
   font-size: 18px;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.table__text:last-child {
+  margin: 0;
 }
 
 .digits__text {
@@ -182,6 +200,7 @@
   font-size: 36px;
   line-height: 51px;
   color: #2f80ed;
+  text-decoration: none;
 }
 
 .feynman__img {
@@ -228,6 +247,7 @@
   width: 877px;
   height: 877px;
   background: url("../images/kaufman-triangle.svg");
+  background-size: contain;
 }
 
 .section-title_theme_dark {
@@ -316,6 +336,7 @@
   font-weight: normal;
   display: flex;
   align-items: center;
+  text-decoration: none;
 }
 
 .row {
