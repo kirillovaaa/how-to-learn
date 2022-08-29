@@ -1,0 +1,10 @@
+@import url(__img/kaufman__img.css);
+
+.kaufman {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+  background-color: #1f1f1f;
+}
