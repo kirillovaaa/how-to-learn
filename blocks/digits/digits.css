@@ -1,5 +1,3 @@
-@import url(__text/digits__text.css);
-
 .digits {
   display: flex;
   flex-direction: column;
