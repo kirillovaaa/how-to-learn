@@ -6,4 +6,9 @@
   line-height: 51px;
   color: #2f80ed;
   text-decoration: none;
+  transition: all 150ms ease-in-out;
+}
+
+.feynman__link:hover {
+  opacity: 0.5;
 }
