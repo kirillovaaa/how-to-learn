@@ -9,3 +9,7 @@
 3. Добавила возможности просмотра видео (iframe)
 4. Анимации
 5. Эффекты transition для ссылок
+
+### Ссылка на проект
+
+[https://kirillovaaa.github.io/russian-travel/]
