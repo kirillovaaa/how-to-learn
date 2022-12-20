@@ -12,4 +12,4 @@
 
 ### Ссылка на проект
 
-[https://kirillovaaa.github.io/russian-travel/]
+[https://kirillovaaa.github.io/how-to-learn/]
